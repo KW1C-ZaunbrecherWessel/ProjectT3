@@ -13,9 +13,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/stylesheet.css">
     <title>
-        Mc Donald's Burgerquiz
+        McDonald's Nederland: Burgers, Franse Friet en veel meer!
     </title>
 </head>
+<?php
+    include "includes/header.php";
+?>
 <body>
     <main>
         <article>
