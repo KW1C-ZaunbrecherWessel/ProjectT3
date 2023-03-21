@@ -5,15 +5,16 @@
  * omschrijving:   ProjectT3
  */
 ?>
-
-<header>
-    <a href="./index.php">
-        <figure>
-            <img src="../images/logomcdonalds.jpg" alt="logo mc donald's" height="80px" width="auto">
-        </figure>
-    </a>
-    <nav>
-        <ul>
+<div class="row">
+    <header class="column left">
+        <a href="./index.php">
+            <figure>
+                <img src="./images/logomcdonalds.jpg" alt="logo mc donald's" height="80px" width="auto">
+            </figure>
+        </a>
+    </header>
+    <nav class="column middle">
+        <ul id="nav1">
             <li>
                 <a href="#">App</a>
             </li>
@@ -26,14 +27,9 @@
             <li>
                 <a href="#">Franchising</a>
             </li>
-            <li>
-                <a href="#">Zoeken</a>
-            </li>
-            <li>
-                <a href="#">Vind een restaurant</a>
-            </li>
         </ul>
-        <ul>
+
+        <ul id="nav2">
             <li>
                 <a href="#">Menu</a>
             </li>
@@ -57,4 +53,15 @@
             </li>
         </ul>
     </nav>
-</header>
+    <nav class="column right">
+        <ul>
+            <li>
+                <a href="#">Zoeken</a>
+            </li>
+            <li>
+                <a href="#">Vind een restaurant</a>
+            </li>
+        </ul>
+    </nav>
+</div>
+<hr>

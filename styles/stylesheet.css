@@ -1,1 +1,45 @@
-.
+/*
+ * auteur:         wessel zaunbrecher
+ * aanmaakdatum:   21-3-2023
+ * omschrijving:   ProjectT3
+ */
+
+body
+{
+    padding: 0;
+    margin: 0;
+}
+ul
+{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+a
+{
+    text-decoration: none;
+    color: #000000;
+}
+.column
+{
+    float: left;
+    padding: 10px;
+}
+.column.left
+{
+    width: 15vw;
+}
+.column.middle
+{
+    width: 55vw;
+}
+.column.right
+{
+    width: 20vw;
+}
+.row::after
+{
+    content: "";
+    display: table;
+    clear: both;
+}
