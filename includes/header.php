@@ -16,37 +16,37 @@
     <nav class="column middle">
         <ul id="nav1">
             <li>
-                <a href="#">App</a>
+                <a href="../wip.php">App</a>
             </li>
             <li>
-                <a href="#">McDonald's Nieuwsbrief</a>
+                <a href="../wip.php">McDonald's Nieuwsbrief</a>
             </li>
             <li>
-                <a href="#">Werken bij McDonalds</a>
+                <a href="../wip.php">Werken bij McDonalds</a>
             </li>
             <li>
-                <a href="#">Franchising</a>
+                <a href="../wip.php">Franchising</a>
             </li>
         </ul>
 
         <ul id="nav2">
             <li>
-                <a href="#">Menu</a>
+                <a href="../wip.php">Menu</a>
             </li>
             <li>
-                <a href="#">Pers</a>
+                <a href="../wip.php">Pers</a>
             </li>
             <li>
-                <a href="#">Services</a>
+                <a href="../wip.php">Services</a>
             </li>
             <li>
-                <a href="#">Goed om te weten</a>
+                <a href="../wip.php">Goed om te weten</a>
             </li>
             <li>
-                <a href="#">Familie</a>
+                <a href="../wip.php">Familie</a>
             </li>
             <li>
-                <a href="#">Ook dat doet McDonald's</a>
+                <a href="../wip.php">Ook dat doet McDonald's</a>
             </li>
             <li>
                 <a href="../survey.php">Burger quiz!</a>
@@ -56,10 +56,10 @@
     <nav class="column right">
         <ul>
             <li>
-                <a href="#">Zoeken</a>
+                <a href="../wip.php">Zoeken</a>
             </li>
             <li>
-                <a href="#">Vind een restaurant</a>
+                <a href="../wip.php">Vind een restaurant</a>
             </li>
         </ul>
     </nav>
