@@ -9,7 +9,7 @@
     <header class="column left">
         <a href="./index.php">
             <figure>
-                <img src="./images/logomcdonalds.jpg" alt="logo mc donald's" height="80px" width="auto">
+                <img src="./images/logomcdonalds.jpg" alt="logo mc donald's" height="100px" width="auto">
             </figure>
         </a>
     </header>
