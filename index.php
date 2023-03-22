@@ -26,6 +26,33 @@
                 <img id="happymeal" src="images/happymeal.png">
             </figure>
         </article>
+        <article>
+            <figure>
+                <img src="images/mcapp.jpg">
+            </figure>
+            <figure>
+                <img src="images/mccafe.jpg">
+            </figure>
+            <figure>
+                <img src="images/mcdelivery.jpg">
+            </figure>
+        </article>
+        <article>
+            <figure>
+                <img src="images/mccrew.jpg">
+            </figure>
+            <figure>
+                <img src="images/mcfuture.jpg">
+            </figure>
+        </article>
+        <article>
+            <figure>
+                <img src="images/mcfollow.jpg">
+            </figure>
+            <figure>
+                <img src="images/mcenjoy.jpg">
+            </figure>
+        </article>
     </main>
 </body>
 </html>
