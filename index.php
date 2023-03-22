@@ -22,6 +22,9 @@
 <body>
     <main>
         <article>
+            <figure>
+                <img id="happymeal" src="images/happymeal.png">
+            </figure>
         </article>
     </main>
 </body>

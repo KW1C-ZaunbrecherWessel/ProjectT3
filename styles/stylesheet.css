@@ -47,3 +47,12 @@ a
     display: table;
     clear: both;
 }
+article
+{
+    text-align: center;
+}
+#happymeal
+{
+    width: 70vw;
+    height: auto;
+}
