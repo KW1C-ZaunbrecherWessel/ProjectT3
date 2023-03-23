@@ -54,5 +54,9 @@
             </figure>
         </article>
     </main>
+<!--footer-->
+    <?php
+        require_once "includes/footer.php";
+    ?>
 </body>
 </html>
