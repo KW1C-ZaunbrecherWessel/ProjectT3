@@ -56,7 +56,7 @@ Omschrijving: Dit is de resultaten pagina van de form
                 }
                 else if ($allevragen <= 200)
                 {
-                    echo "De Mc Chicken past het beste bij jou<br>" . "Je punten aantal was " . $allevragen . "punten";
+                    echo "De Big Mac past het beste bij jou<br>" . "Je punten aantal was " . $allevragen . "punten";
                 }
                 else if ($allevragen <= 300)
                 {
@@ -64,7 +64,7 @@ Omschrijving: Dit is de resultaten pagina van de form
                 }
                 else
                 {
-                    echo "De Big Mac past het beste bij jou<br>" . "Je punten aantal was " . $allevragen . "punten";
+                    echo "De Mc Chicken past het beste bij jou<br>" . "Je punten aantal was " . $allevragen . "punten";
                 }
                 ?>
 
