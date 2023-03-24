@@ -11,7 +11,7 @@
     <ul id="lijstje2">
         <li>
 <!--            add an image of the logo here-->
-            <img src=""> &copy; Copyright &copy; 2022 McDonald's Nederland.
+            <img src="images/logomcdonalds.jpg"> &copy; Copyright &copy; 2022 McDonald's Nederland.
         </li>
     </ul>
 </footer>
