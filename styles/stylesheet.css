@@ -56,3 +56,24 @@ article
     width: 70vw;
     height: auto;
 }
+.grid-container-three
+{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: min-content min-content min-content;
+}
+.grid-item-three
+{
+    text-align: left;
+}
+.grid-container-two
+{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: min-content min-content;
+
+}
+.grid-item-two
+{
+    text-align: left;
+}
