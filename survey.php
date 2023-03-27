@@ -12,6 +12,7 @@
     </head>
     <body>
     <main>
+<!--     Joris   we moeten ook sommige vragen radio button, checklist en tekst veld, alle velden moeten verplicht zijn ingevuld, dat weet je dat -->
         <article>
         </article>
     </main>
