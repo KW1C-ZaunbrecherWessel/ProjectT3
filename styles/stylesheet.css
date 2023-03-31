@@ -126,8 +126,8 @@ article
     {
         display: block;
     }
-    .dropdown:hover .dropbtn
+    .grid-container-three .grid-container-two
     {
-        background-color: #3e8e41;
+        grid-template-columns: min-content;
     }
 }

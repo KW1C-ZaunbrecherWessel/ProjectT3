@@ -71,7 +71,7 @@
         </ul>
     </nav>
     <nav class="dropdown">
-        <button class="dropbtn"><img src="../images/menu.png" height="50px" width="auto"> </button>
+        <button class="dropbtn"><img src="./images/menu.png" height="50px" width="auto"> </button>
         <div class="dropdown-content">
             <a href="./wip.php">App</a>
             <a href="./wip.php">McDonald's Nieuwsbrief</a>
