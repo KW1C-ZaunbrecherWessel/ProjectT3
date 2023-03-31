@@ -5,7 +5,7 @@
             <a href="../wip.php">Privacy</a>
         </li>
         <li>
-            <a href="../wip.php">Coockies</a>
+            <a href="../wip.php">Cookies</a>
         </li>
     </ul>
     <ul id="lijstje2">

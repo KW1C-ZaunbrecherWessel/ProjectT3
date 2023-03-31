@@ -62,6 +62,13 @@
                 <a href="./wip.php">Vind een restaurant</a>
             </li>
         </ul>
+        <ul>
+            <li>
+                <?php
+                include "tijd.php"
+                ?>
+            </li>
+        </ul>
     </nav>
 </div>
 <hr>
