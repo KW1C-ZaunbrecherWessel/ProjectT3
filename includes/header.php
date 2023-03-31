@@ -65,11 +65,25 @@
         <ul>
             <li>
                 <?php
-                include "tijd.php"
+                    include "tijd.php"
                 ?>
             </li>
         </ul>
     </nav>
+    <header class="smol">
+        <a href="./index.php">
+            <figure>
+                <img src="./images/logomcdonalds.jpg" alt="logo mc donald's" height="100px" width="auto">
+            </figure>
+        </a>
+        <ul>
+            <li>
+                <?php
+                include "tijd.php"
+                ?>
+            </li>
+        </ul>
+    </header>
     <nav class="dropdown">
         <button class="dropbtn"><img src="./images/menu.png" height="50px" width="auto"> </button>
         <div class="dropdown-content">
