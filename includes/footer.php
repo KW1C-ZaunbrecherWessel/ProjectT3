@@ -12,7 +12,7 @@
     </ul>
     <ul>
         <li>
-            <img src="./images/logomcdonalds.jpg"> &copy; Copyright &copy; 2022 McDonald's Nederland.
+            <img src="./images/logomcdonalds.jpg" alt="mclogo"> &copy; Copyright &copy; 2022 McDonald's Nederland.
         </li>
     </ul>
 </footer>
