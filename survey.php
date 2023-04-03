@@ -23,169 +23,187 @@
                 <h3>
                     Wat is je favoriet stuk vlees?
                 </h3>
-                    <input type="radio" name="vraag1" value="1" required>
-                    <label for="vraag1">Kip </label>
+                    <input type="radio" id="vraag1A" name="vraag1" value="1" required>
+                    <label for="vraag1A">Kip </label>
 
-                    <input type="radio" name="vraag1" value="1" required>
-                    <label for="vraag1">Rund</label>
+                    <input type="radio" id="vraag1B" name="vraag1" value="1" required>
+                    <label for="vraag1B">Rund</label>
 
-                    <input type="radio" name="vraag1" value="1" required>
-                    <label for="vraag1">Varken </label>
+                    <input type="radio" id="vraag1C"  name="vraag1" value="1" required>
+                    <label for="vraag1C">Varken </label>
 
-                    <input type="radio" name="vraag1" value="1" required>
-                    <label for="vraag1">Iuuueewwww Vlees ik ben een ranzige vega en ik hou van dieren en geef bomen knuffels</label>
+                    <input type="radio" id="vraag1D" name="vraag1" value="1" required>
+                    <label for="vraag1D">Iuuueewwww Vlees ik ben een ranzige vega en ik hou van dieren en geef bomen knuffels</label>
     <!--                vraag 2-->
                 <h3>
                     Wat is je favoriete saus?
                 </h3>
-                    <input type="radio" name="vraag2" value="1" required>
-                    <label for="vraag2">Ketchup </label>
+                    <input type="radio" id="vraag2A" name="vraag2" value="1" required>
+                    <label for="vraag2A">Ketchup </label>
 
-                    <input type="radio" name="vraag2" value="1" required>
-                    <label for="vraag2">BBQ saus</label>
+                    <input type="radio" id="vraag2B" name="vraag2" value="1" required>
+                    <label for="vraag2B">BBQ saus</label>
 
-                    <input type="radio" name="vraag2" value="1" required>
-                    <label for="vraag2">Mayo </label>
+                    <input type="radio" id="vraag2C" name="vraag2" value="1" required>
+                    <label for="vraag2C">Mayo </label>
 
-                    <input type="radio" name="vraag2" value="1" required>
-                    <label for="vraag2">Mosterd</label>
+                    <input type="radio" id="vraag2D" name="vraag2" value="1" required>
+                    <label for="vraag2D">Mosterd</label>
         <!--                vraag 3-->
                 <h3>
                     vind je kip lekkerder dan vlees
                 </h3>
-                    <input type="radio" name="vraag3" value="1" required>
-                    <label for="vraag3">Ja </label>
+                    <input type="radio" id="vraag3A" name="vraag3" value="1" required>
+                    <label for="vraag3A">Ja </label>
 
-                    <input type="radio" name="vraag3" value="1" required>
-                    <label for="vraag3">Nee</label>
+                    <input type="radio" id="vraag3B" name="vraag3" value="1" required>
+                    <label for="vraag3B">Nee</label>
 
-                    <input type="radio" name="vraag3" value="1" required>
-                    <label for="vraag3">geen verschil </label>
+                    <input type="radio" id="vraag3C" name="vraag3" value="1" required>
+                    <label for="vraag3C">geen verschil </label>
 
-                    <input type="radio" name="vraag3" value="1" required>
-                    <label for="vraag3">geen vlees</label>
+                    <input type="radio" id="vraag3D" name="vraag3" value="1" required>
+                    <label for="vraag3D">geen vlees</label>
                     <!--                vraag 4-->
                 <h3>
                     Wat is je favoriete topping?
                 </h3>
-                    <input type="radio" name="vraag4" value="1" required>
-                    <label for="vraag4">Sla </label>
+                    <input type="radio" id="vraag4A" name="vraag4" value="1" required>
+                    <label for="vraag4A">Sla </label>
 
-                    <input type="radio" name="vraag4" value="1" required>
-                    <label for="vraag4">Tomaat</label>
+                    <input type="radio" id="vraag4B" name="vraag4" value="1" required>
+                    <label for="vraag4B">Tomaat</label>
 
-                    <input type="radio" name="vraag4" value="1" required>
-                    <label for="vraag4">Augurk </label>
+                    <input type="radio" id="vraag4C" name="vraag4" value="1" required>
+                    <label for="vraag4C">Augurk </label>
 
-                    <input type="radio" name="vraag4" value="1" required>
-                    <label for="vraag4">Kaas</label>
+                    <input type="radio" id="vraag4D" name="vraag4" value="1" required>
+                    <label for="vraag4D">Kaas</label>
                     <!--       vraag 5-->
                 <h3>
                     Hoeveel geef je om het Milieu
                 </h3>
-                    <input type="radio" name="vraag5" value="1" required>
-                    <label for="vraag5">erg veel </label>
+                    <input type="radio" id="vraag5A" name="vraag5" value="1" required>
+                    <label for="vraag5A">erg veel </label>
 
-                    <input type="radio" name="vraag5" value="1" required>
-                    <label for="vraag5">redelijk veel</label>
+                    <input type="radio" id="vraag5B" name="vraag5" value="1" required>
+                    <label for="vraag5B">redelijk veel</label>
 
-                    <input type="radio" name="vraag5" value="1" required>
-                    <label for="vraag5">ben er niet mee bezig </label>
+                    <input type="radio" id="vraag5C" name="vraag5" value="1" required>
+                    <label for="vraag5C">ben er niet mee bezig </label>
 
-                    <input type="radio" name="vraag5" value="1" required>
-                    <label for="vraag5">helemaal niet</label>
+                    <input type="radio" id="vraag5D" name="vraag5" value="1" required>
+                    <label for="vraag5D">helemaal niet</label>
                     <!--                vraag 6-->
                 <h3>
                     Hoeveel geld geef je het liefste uit aan een burger?
                 </h3>
-                    <input type="radio" name="vraag6" value="1" required>
-                    <label for="vraag6">4 tot 5 euro </label>
+                    <input type="radio" id="vraag6A" name="vraag6" value="1" required>
+                    <label for="vraag6A">4 tot 5 euro </label>
 
-                    <input type="radio" name="vraag6" value="1" required>
-                    <label for="vraag6">3 tot 4 euro</label>
+                    <input type="radio" id="vraag6B" name="vraag6" value="1" required>
+                    <label for="vraag6B">3 tot 4 euro</label>
 
-                    <input type="radio" name="vraag6" value="1" required>
-                    <label for="vraag6">zo min mogelijk</label>
+                    <input type="radio" id="vraag6C" name="vraag6" value="1" required>
+                    <label for="vraag6C">zo min mogelijk</label>
 
-                    <input type="radio" name="vraag6" value="1" required>
-                    <label for="vraag6">het maakt me niet uit</label>
+                    <input type="radio" id="vraag6D" name="vraag6" value="1" required>
+                    <label for="vraag6D">het maakt me niet uit</label>
                     <!--        vraag 7-->
                 <h3>
                     Welk sterrenbeeld heb je?
                 </h3>
-                    <input type="radio" name="vraag7" value="1" required>
-                    <label for="vraag7">Ram, Leeuw en Boogschutter: </label>
+                    <input type="radio" id="vraag7A" name="vraag7" value="1" required>
+                    <label for="vraag7A">Ram, Leeuw en Boogschutter: </label>
 
-                    <input type="radio" name="vraag7" value="1" required>
-                    <label for="vraag7">Stier, Maagd, Steenbok</label>
+                    <input type="radio" id="vraag7B" name="vraag7" value="1" required>
+                    <label for="vraag7B">Stier, Maagd, Steenbok</label>
 
-                    <input type="radio" name="vraag7" value="1" required>
-                    <label for="vraag7"> </label>
+                    <input type="radio" id="vraag7C" name="vraag7" value="1" required>
+                    <label for="vraag7C">Tweeling, Weegschaal, Waterman </label>
 
-                    <input type="radio" name="vraag7" value="1" required>
-                    <label for="vraag7">Nee</label>
+                    <input type="radio" id="vraag7D" name="vraag7" value="1" required>
+                    <label for="vraag7D">Kreeft, Schorpioen, Vissen</label>
                     <!--                vraag 8-->
-                    <input type="radio" name="vraag8" value="1" required>
-                    <label for="vraag8">Ja </label>
+                <h3>
+                    Hoeveel eetlust heb je?
+                </h3>
+                    <input type="radio" id="vraag8A" name="vraag8" value="1" required>
+                    <label for="vraag8A">MC Chicken// weinig  </label>
 
-                    <input type="radio" name="vraag8" value="1" required>
-                    <label for="vraag8">Nee</label>
+                    <input type="radio" id="vraag8B" name="vraag8" value="1" required>
+                    <label for="vraag8B">Mc Plant// weinig </label>
 
-                    <input type="radio" name="vraag8" value="1" required>
-                    <label for="vraag8">Ja </label>
+                    <input type="radio" id="vraag8C" name="vraag8" value="1" required>
+                    <label for="vraag8C">Big mac // gewoon  </label>
 
-                    <input type="radio" name="vraag8" value="1" required>
-                    <label for="vraag8">Nee</label>
+                    <input type="radio" id="vraag8D" name="vraag8" value="1" required>
+                    <label for="vraag8D">Quarter Pounder // veel😀 </label>
                     <!--  vraag 9-->
-                    <input type="radio" name="vraag9" value="1" required>
-                    <label for="vraag9">Ja </label>
+                <h3>
+                    Heb je graag groente op je burger of liefst zo min mogelijk?
+                </h3>
+                <input type="radio" id="vraag9A" name="vraag9" value="1" required>
+                    <label for="vraag9A">Ja lekker veel </label>
 
-                    <input type="radio" name="vraag9" value="1" required>
-                    <label for="vraag9">Nee</label>
+                    <input type="radio" id="vraag9B" name="vraag9" value="1" required>
+                    <label for="vraag9B">Nee</label>
 
-                    <input type="radio" name="vraag9" value="1" required>
-                    <label for="vraag9">Ja </label>
+                    <input type="radio" id="vraag9C" name="vraag9" value="1" required>
+                    <label for="vraag9C">niet te veel </label>
 
-                    <input type="radio" name="vraag9" value="1" required>
-                    <label for="vraag9">Nee</label>
+                    <input type="radio" id="vraag9D" name="vraag9" value="1" required>
+                    <label for="vraag9D">klein beetje</label>
                     <!--                vraag 10-->
-                    <input type="radio" name="vraag10" value="1" required>
-                    <label for="vraag10">Ja </label>
+                <h3>
+                    Sport je veel? (iets met burger met meeste eiwit bovenaan)
+                </h3>
+                    <input type="radio" id="vraag10A" name="vraag10" value="1" required>
+                    <label for="vraag10A">Ja //MCchicken</label>
 
-                    <input type="radio" name="vraag10" value="1" required>
-                    <label for="vraag10">Nee</label>
+                    <input type="radio" id="vraag10B" name="vraag10" value="1" required>
+                    <label for="vraag10B">Nee// MCplant</label>
 
-                    <input type="radio" name="vraag10" value="1" required>
-                    <label for="vraag10">Ja </label>
+                    <input type="radio" id="vraag10C" name="vraag10" value="1" required>
+                    <label for="vraag10C">Hier en Daar // Quarter Pounder </label>
 
-                    <input type="radio" name="vraag10" value="1" required>
-                    <label for="vraag11">Nee</label>
+                    <input type="radio" id="vraag10D" name="vraag10" value="1" required>
+                    <label for="vraag10D">Nee ik heb een handicap🙁// Big Mac</label>
                     <!--          vraag 11-->
-                    <input type="radio" name="vraag11" value="1" required>
-                    <label for="vraag11">Ja </label>
+                <h3>
+                    wat is je favoriete pizza topping?
+                </h3>
+                    <input type="radio" id="vraag11A" name="vraag11" value="1" required>
+                    <label for="vraag11A"> Gegrilde kipstukjes </label>
 
-                    <input type="radio" name="vraag11" value="1" required>
-                    <label for="vraag11">Nee</label>
+                    <input type="radio" id="vraag11B" name="vraag11" value="1" required>
+                    <label for="vraag11B">Verse bacon. </label>
 
-                    <input type="radio" name="vraag11" value="1" required>
-                    <label for="vraag11">Ja </label>
+                    <input type="radio" id="vraag11C" name="vraag11" value="1" required>
+                    <label for="vraag11C">Rundergehakt.  </label>
 
-                    <input type="radio" name="vraag11" value="1" required>
-                    <label for="vraag11">Nee</label>
+                    <input type="radio" id="vraag11D" name="vraag11" value="1" required>
+                    <label for="vraag11D">Champignon. </label>
                     <!--                vraag 12-->
-                    <input type="radio" name="vraag12" value="1" required>
-                    <label for="vraag12">Ja </label>
+                <h3>
+                    wat is je favoriete huisdier
+                </h3>
+                    <input type="radio" id="vraag12A" name="vraag12" value="1" required>
+                    <label for="vraag12A">Hond </label>
 
-                    <input type="radio" name="vraag12" value="1" required>
-                    <label for="vraag12">Nee</label>
+                    <input type="radio" id="vraag12B" name="vraag12" value="1" required>
+                    <label for="vraag12B">Kat</label>
 
-                    <input type="radio" name="vraag12" value="1" required>
-                    <label for="vraag12">Ja </label>
+                    <input type="radio" id="vraag12C" name="vraag12" value="1" required>
+                    <label for="vraag12C">Vogels </label>
 
-                    <input type="radio" name="vraag12" value="1" required>
-                    <label for="vraag12">Nee</label>
+                    <input type="radio" id="vraag12D" name="vraag12" value="1" required>
+                    <label for="vraag12D">ik hou niet van huisdieren</label>
 
                     <!--                drie vragen voor naam email en leeftijd -->
+                <h3>
+                    wat is je naam?
+                </h3>
                     <input type="text" name="vraag13" value="0" required>
             </form>
 
