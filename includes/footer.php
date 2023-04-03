@@ -1,13 +1,13 @@
 <footer>
     <ul>
         <li>
-            <a href="../wip.php">Privacy</a>
+            <a href="./wip.php">Privacy</a>
         </li>
         <li>
-            <a href="../wip.php">Disclaimer</a>
+            <a href="./wip.php">Disclaimer</a>
         </li>
         <li>
-            <a href="../wip.php">Cookies</a>
+            <a href="./wip.php">Cookies</a>
         </li>
     </ul>
     <ul>
