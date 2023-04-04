@@ -17,7 +17,7 @@
     <main>
 <!--     Joris   we moeten ook sommige vragen radio button, checklist en tekst veld, alle velden moeten verplicht zijn ingevuld, dat weet je dat -->
         <article>
-            <form action="resultaten.php" method="post" id="enquete">
+            <form action="./results.php" method="post" id="enquete">
                     <!-- de 1e vraag maken  -->
                 <h3>
                     Burger Quiz!!!
