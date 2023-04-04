@@ -15,10 +15,10 @@
         McDonald's Nederland: Burgers, Franse Friet en veel meer!
     </title>
 </head>
-<?php
-    include "includes/header.php";
-?>
 <body>
+<?php
+include "includes/header.php";
+?>
     <main>
         <article>
             <figure>
