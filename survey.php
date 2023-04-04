@@ -215,9 +215,53 @@
                 <h3>
                     Wat is je leeftijd
                 </h3>
-<!--                hier nog een table maken(tabel)-->
+
+<!--                0 tot en met 99-->
                 <input type="checkbox" name="vraag15" value="0" required>
                 <label for="vraag15">0</label>
+                <input type="checkbox" name="vraag15" value="1" required>
+                <label for="vraag15">1</label>
+                <input type="checkbox" name="vraag15" value="2" required>
+                <label for="vraag15">2</label>
+                <input type="checkbox" name="vraag15" value="3" required>
+                <label for="vraag15">3</label>
+                <input type="checkbox" name="vraag15" value="4" required>
+                <label for="vraag15">4</label>
+                <input type="checkbox" name="vraag15" value="5" required>
+                <label for="vraag15">5</label>
+                <input type="checkbox" name="vraag15" value="6" required>
+                <label for="vraag15">6</label>
+                <input type="checkbox" name="vraag15" value="7" required>
+                <label for="vraag15">7</label>
+                <input type="checkbox" name="vraag15" value="8" required>
+                <label for="vraag15">8</label>
+                <input type="checkbox" name="vraag15" value="9" required>
+                <label for="vraag15">9</label>
+                <br>
+                <input type="checkbox" name="vraag15" value="0" required>
+                <label for="vraag15">11</label>
+                <input type="checkbox" name="vraag15" value="1" required>
+                <label for="vraag15">12</label>
+                <input type="checkbox" name="vraag15" value="2" required>
+                <label for="vraag15">13</label>
+                <input type="checkbox" name="vraag15" value="3" required>
+                <label for="vraag15">14</label>
+                <input type="checkbox" name="vraag15" value="4" required>
+                <label for="vraag15">15</label>
+                <input type="checkbox" name="vraag15" value="5" required>
+                <label for="vraag15">16</label>
+                <input type="checkbox" name="vraag15" value="6" required>
+                <label for="vraag15">17</label>
+                <input type="checkbox" name="vraag15" value="7" required>
+                <label for="vraag15">18</label>
+                <input type="checkbox" name="vraag15" value="8" required>
+                <label for="vraag15">19</label>
+                <br>
+
+                <br>
+
+<!--                submit button-->
+                <input type="submit" value="Burger Time">
             </form>
 
         </article>
