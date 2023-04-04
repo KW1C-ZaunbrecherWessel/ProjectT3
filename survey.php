@@ -10,6 +10,9 @@
             Mc Donald's Burgerquiz
         </title>
     </head>
+    <?php
+        include "includes/header.php";
+    ?>
     <body>
     <main>
 <!--     Joris   we moeten ook sommige vragen radio button, checklist en tekst veld, alle velden moeten verplicht zijn ingevuld, dat weet je dat -->
@@ -209,5 +212,8 @@
 
         </article>
     </main>
+    <?php
+        include "includes/footer.php"
+    ?>
     </body>
 </html>
