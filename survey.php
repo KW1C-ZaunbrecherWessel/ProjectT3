@@ -207,7 +207,17 @@
                 <h3>
                     wat is je naam?
                 </h3>
-                    <input type="text" name="vraag13" value="0" required>
+                <input type="text" id="vraag13" name="vraag13" value="0" required>
+                <h3>
+                    Wat is je Email?
+                </h3>
+                <input type="text" id="vraag14" name="vraag14" value="0" required>
+                <h3>
+                    Wat is je leeftijd
+                </h3>
+<!--                hier nog een table maken(tabel)-->
+                <input type="checkbox" name="vraag15" value="0" required>
+                <label for="vraag15">0</label>
             </form>
 
         </article>

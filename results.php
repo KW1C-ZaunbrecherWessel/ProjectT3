@@ -55,6 +55,9 @@ Omschrijving: Dit is de resultaten pagina van de form
                     $vraag14 = $_POST['vraag14'];
 //                age
                     $vraag15 = $_POST['vraag15'];
+
+//                    cookie opslaan
+                require_once 'includes/coockie.php';
 //                    Create if else statements to determine which burger fits best by points
                 $allevragen = $vraag1 + $vraag2 + $vraag3 + $vraag4 + $vraag5 + $vraag6 + $vraag7 + $vraag8 + $vraag9 + $vraag10 + $vraag11 + $vraag12;
 
