@@ -22,10 +22,11 @@
         <article>
             <form action="./results.php" method="post" id="enquete">
                     <!-- de 1e vraag maken  -->
-                <h3>
+                <h2>
                     Burger Quiz!!!
-                </h3>
+                </h2>
     <!--                    vraag 1-->
+
                 <h3>
                     Wat is je favoriet stuk vlees?
                 </h3>
