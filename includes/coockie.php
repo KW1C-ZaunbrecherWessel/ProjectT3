@@ -5,7 +5,8 @@
 
 //coockie expires in: 14 days
 $expires = time() + 3600 * 24 * 14;
-//place cookie
+//place cookie for result
+setcookie("resultaatOpslaan", $allevragen, $expires, "/");
 setcookie("naamOpslaan", $vraag13, $expires, "/");
 
 ////

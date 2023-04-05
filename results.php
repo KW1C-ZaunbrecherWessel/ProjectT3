@@ -56,13 +56,15 @@ Omschrijving: Dit is de resultaten pagina van de form
 //                age
                     $vraag15 = $_POST['vraag15'];
 
-//                    cookie opslaan
-                require_once 'includes/coockie.php';
+
 //                    Create if else statements to determine which burger fits best by points
                 $allevragen = $vraag1 + $vraag2 + $vraag3 + $vraag4 + $vraag5 + $vraag6 + $vraag7 + $vraag8 + $vraag9 + $vraag10 + $vraag11 + $vraag12;
 
+                //                    cookie opslaan
+                require_once 'includes/coockie.php';
+
 //                display name time and date
-                echo "Bedankt voor het invullen van de vragenlijst " . $vraag14 . "!";
+                echo "Bedankt voor het invullen van de vragenlijst " . $vraag13 . "!";
                 require_once "includes/tijd.php";
                 if ($allevragen <= 100)
                 {
@@ -76,7 +78,7 @@ Omschrijving: Dit is de resultaten pagina van de form
                 {
                     echo "De Quarter Pounder past het beste bij jou<br>" . "Je punten aantal was " . $allevragen . "punten" . "<br>" . "<a href='https://www.mcdonalds.com/nl/nl-nl/product/quarter-pounder.html#accordion-7b89f50203-item-9dc886373b'> klik hier voor meer informatie</a>" . "<br>" . "<img src='images/QuarterPounder.jpg' alt='Hier hoort een Quarter Pounder te staan'>";
                 }
-                else
+                else if ($allevragen >= 300)
                 {
                     echo "De Mc Chicken past het beste bij jou<br>" . "Je punten aantal was " . $allevragen . "punten" . "<br>" . "<a href='https://www.mcdonalds.com/nl/nl-nl/product/mcchicken.html#accordion-7b89f50203-item-9dc886373b'> klik hier voor meer informatie</a>" . "<br>" . "<img src='images/McChicken.jpg' alt='Hier hoort een Mc Chicken te staan'>";
                 }
