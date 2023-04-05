@@ -24,6 +24,8 @@ Omschrijving: Dit is de resultaten pagina van de form
         <main>
             <article>
                 <?php
+//                making sure page is empty
+                error_reporting(0);
 //                question 1
                     $vraag1 = $_POST['vraag1'];
 //                question 2
@@ -60,8 +62,11 @@ Omschrijving: Dit is de resultaten pagina van de form
 //                    Create if else statements to determine which burger fits best by points
                 $allevragen = $vraag1 + $vraag2 + $vraag3 + $vraag4 + $vraag5 + $vraag6 + $vraag7 + $vraag8 + $vraag9 + $vraag10 + $vraag11 + $vraag12;
 
-                //                    cookie opslaan
-                require_once 'includes/coockie.php';
+                //coockie expires in: 14 days
+                $expires = time() + 3600 * 24 * 14;
+                //place cookie for result
+                setcookie("resultaatOpslaan", $allevragen, $expires, "/");
+                setcookie("naamOpslaan", $vraag13, $expires, "/");
 
 //                display name time and date
                 echo "Bedankt voor het invullen van de vragenlijst " . $vraag13 . "!";

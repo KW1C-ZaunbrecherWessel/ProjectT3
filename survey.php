@@ -210,56 +210,56 @@
                 <h3>
                     wat is je naam?
                 </h3>
-                <input type="text" id="vraag13" name="vraag13" value="0" required>
+                <input type="text" id="vraag13" name="vraag13" value="naam" required>
                 <h3>
                     Wat is je Email?
                 </h3>
-                <input type="text" id="vraag14" name="vraag14" value="0" required>
+                <input type="text" id="vraag14" name="vraag14" value="email" required>
                 <h3>
                     Wat is je leeftijd
                 </h3>
 
-<!--                0 tot en met 99-->
-                <input type="checkbox" name="vraag15" value="0">
+<!--                0 tot en met 9-->
+                <input type="checkbox" class="leeftijd" name="vraag15" value="0">
                 <label for="vraag15">0</label>
-                <input type="checkbox" name="vraag15" value="1">
+                <input type="checkbox" class="leeftijd" name="vraag15" value="1">
                 <label for="vraag15">1</label>
-                <input type="checkbox" name="vraag15" value="2">
+                <input type="checkbox" class="leeftijd" name="vraag15" value="2">
                 <label for="vraag15">2</label>
-                <input type="checkbox" name="vraag15" value="3">
+                <input type="checkbox" class="leeftijd" name="vraag15" value="3">
                 <label for="vraag15">3</label>
-                <input type="checkbox" name="vraag15" value="4">
+                <input type="checkbox" class="leeftijd" name="vraag15" value="4">
                 <label for="vraag15">4</label>
-                <input type="checkbox" name="vraag15" value="5">
+                <input type="checkbox" class="leeftijd" name="vraag15" value="5">
                 <label for="vraag15">5</label>
-                <input type="checkbox" name="vraag15" value="6">
+                <input type="checkbox" class="leeftijd" name="vraag15" value="6">
                 <label for="vraag15">6</label>
-                <input type="checkbox" name="vraag15" value="7">
+                <input type="checkbox" class="leeftijd" name="vraag15" value="7">
                 <label for="vraag15">7</label>
-                <input type="checkbox" name="vraag15" value="8">
+                <input type="checkbox" class="leeftijd" name="vraag15" value="8">
                 <label for="vraag15">8</label>
-                <input type="checkbox" name="vraag15" value="9">
+                <input type="checkbox" class="leeftijd" name="vraag15" value="9">
                 <label for="vraag15">9</label>
                 <br>
-                <input type="checkbox" name="vraag15" value="0">
+                <input type="checkbox" class="leeftijd" name="vraag15" value="0">
                 <label for="vraag15">0</label>
-                <input type="checkbox" name="vraag15" value="1">
+                <input type="checkbox" class="leeftijd" name="vraag15" value="1">
                 <label for="vraag15">1</label>
-                <input type="checkbox" name="vraag15" value="2">
+                <input type="checkbox" class="leeftijd" name="vraag15" value="2">
                 <label for="vraag15">2</label>
-                <input type="checkbox" name="vraag15" value="3">
+                <input type="checkbox" class="leeftijd" name="vraag15" value="3">
                 <label for="vraag15">3</label>
-                <input type="checkbox" name="vraag15" value="4">
+                <input type="checkbox" class="leeftijd" name="vraag15" value="4">
                 <label for="vraag15">4</label>
-                <input type="checkbox" name="vraag15" value="5">
+                <input type="checkbox" class="leeftijd" name="vraag15" value="5">
                 <label for="vraag15">5</label>
-                <input type="checkbox" name="vraag15" value="6">
+                <input type="checkbox" class="leeftijd" name="vraag15" value="6">
                 <label for="vraag15">6</label>
-                <input type="checkbox" name="vraag15" value="7">
+                <input type="checkbox" class="leeftijd" name="vraag15" value="7">
                 <label for="vraag15">7</label>
-                <input type="checkbox" name="vraag15" value="8">
+                <input type="checkbox" class="leeftijd" name="vraag15" value="8">
                 <label for="vraag15">8</label>
-                <input type="checkbox" name="vraag15" value="9">
+                <input type="checkbox" class="leeftijd" name="vraag15" value="9">
                 <label for="vraag15">9</label>
                 <br>
 
