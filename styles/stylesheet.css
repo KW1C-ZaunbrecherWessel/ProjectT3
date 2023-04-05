@@ -76,7 +76,7 @@ article
     justify-content: center;
     grid-template-columns: min-content min-content min-content;
 }
-.grid-item-three
+.grid-item-three, .grid-item-two
 {
     text-align: left;
 }
@@ -87,10 +87,6 @@ article
     grid-template-columns: min-content min-content;
 
 }
-.grid-item-two
-{
-    text-align: left;
-}
 .dropdown
 {
     display: none;
@@ -99,6 +95,7 @@ article
 {
     display: none;
 }
+
 @media screen and (max-width: 1000px)
 {
     header
