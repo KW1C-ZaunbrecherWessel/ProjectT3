@@ -37,6 +37,13 @@ $vraag13 = $_POST['vraag13'];
 $vraag14 = $_POST['vraag14'];
 //                age
 $vraag15 = $_POST['vraag15'];
+//loop for point count
+
+$antwoorden = array($_POST['vraag1'], $_POST['vraag2'], $_POST['vraag3'], $_POST['vraag4'], $_POST['vraag5'], $_POST['vraag6'], $_POST['vraag7'], $_POST['vraag8'], $_POST['vraag9'], $_POST['vraag10'], $_POST['vraag11'], $_POST['vraag12']);
+
+
+
+
 
 
 //       count everything up to calculate the score
@@ -49,6 +56,23 @@ $expires = time() + 3600 * 24 * 14;
 setcookie("resultaatOpslaan", $allevragen, $expires, "/");
 //place cookie for name
 setcookie("naamOpslaan", $vraag13, $expires, "/");
+
+//place cookie for array points
+setcookie("puntenOpslaan", $antwoorden, $expires, "/");
+
+// put array inside cookie
+if (isset($_COOKIE['puntenOpslaan'])==true)
+{
+    // Haal de waarde van de cookie op
+    $_COOKIE['puntenOpslaan'] = $antwoorden;
+
+
+}
+else
+{
+    echo "De 'puntenOpslaan' cookie is niet ingesteld.";
+}
+
 
 // put score variable inside cookie
 if (isset($_COOKIE['resultaatOpslaan'])==true)
@@ -77,12 +101,7 @@ else
 
 
 
-////coockie expires in: 14 days
-//$expires = time() + 3600 * 24 * 14;
-////place cookie for result
-//setcookie("resultaatOpslaan", $allevragen, $expires, "/");
-//setcookie("naamOpslaan", $vraag13, $expires, "/");
-////redirecting the page to the results page
+
 header("location: results.php");
 ?>
 
