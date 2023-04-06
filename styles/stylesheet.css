@@ -95,7 +95,17 @@ article
 {
     display: none;
 }
-
+.formul
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.formli
+{
+    position: relative;
+    left: 40vw;
+}
 @media screen and (max-width: 1000px)
 {
     header
