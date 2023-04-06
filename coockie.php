@@ -5,7 +5,7 @@
 
 
 //                making sure page is empty
-error_reporting(0);
+//error_reporting(0);
 //                question 1
 $vraag1 = $_POST['vraag1'];
 //                question 2
@@ -39,7 +39,7 @@ $vraag14 = $_POST['vraag14'];
 $vraag15 = $_POST['vraag15'];
 //loop for point count
 
-$antwoorden = array($_POST['vraag1'], $_POST['vraag2'], $_POST['vraag3'], $_POST['vraag4'], $_POST['vraag5'], $_POST['vraag6'], $_POST['vraag7'], $_POST['vraag8'], $_POST['vraag9'], $_POST['vraag10'], $_POST['vraag11'], $_POST['vraag12']);
+$antwoorden = serialize(array($_POST['vraag1'], $_POST['vraag2'], $_POST['vraag3'], $_POST['vraag4'], $_POST['vraag5'], $_POST['vraag6'], $_POST['vraag7'], $_POST['vraag8'], $_POST['vraag9'], $_POST['vraag10'], $_POST['vraag11'], $_POST['vraag12']));
 
 
 
@@ -55,6 +55,7 @@ $expires = time() + 3600 * 24 * 14;
 //place cookie for result
 setcookie("resultaatOpslaan", $allevragen, $expires, "/");
 //place cookie for name
+//var_dump($antwoorden); die();
 setcookie("naamOpslaan", $vraag13, $expires, "/");
 
 //place cookie for array points
@@ -104,4 +105,5 @@ else
 
 header("location: results.php");
 ?>
+
 
