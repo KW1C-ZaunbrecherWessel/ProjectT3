@@ -47,31 +47,42 @@ $allevragen = $vraag1 + $vraag2 + $vraag3 + $vraag4 + $vraag5 + $vraag6 + $vraag
 $expires = time() + 3600 * 24 * 14;
 //place cookie for result
 setcookie("resultaatOpslaan", $allevragen, $expires, "/");
+//place cookie for name
 setcookie("naamOpslaan", $vraag13, $expires, "/");
 
-// Controleer of de cookie is ingesteld
+// put score variable inside cookie
 if (isset($_COOKIE['resultaatOpslaan'])==true)
 {
     // Haal de waarde van de cookie op
     $_COOKIE['resultaatOpslaan'] = $allevragen;
 
-    // Gebruik de waarde van de cookie als een variabele
-    echo "De waarde van de 'resultaatOpslaan' cookie is: " . $allevragen;
+
 }
 else
     {
     echo "De 'resultaatOpslaan' cookie is niet ingesteld.";
     }
 
+// put name variable in cookie
+if (isset($_COOKIE['naamOpslaan'])==true)
+{
+    // Haal de waarde van de cookie op
+    $_COOKIE['naamOpslaan'] = $vraag13;
+
+}
+else
+{
+    echo "De 'resultaatOpslaan' cookie is niet ingesteld.";
+}
 
 
 
-//coockie expires in: 14 days
-$expires = time() + 3600 * 24 * 14;
-//place cookie for result
-setcookie("resultaatOpslaan", $allevragen, $expires, "/");
-setcookie("naamOpslaan", $vraag13, $expires, "/");
-//redirecting the page to the results page
+////coockie expires in: 14 days
+//$expires = time() + 3600 * 24 * 14;
+////place cookie for result
+//setcookie("resultaatOpslaan", $allevragen, $expires, "/");
+//setcookie("naamOpslaan", $vraag13, $expires, "/");
+////redirecting the page to the results page
 header("location: results.php");
 ?>
 
