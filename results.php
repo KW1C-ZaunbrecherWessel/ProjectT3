@@ -71,7 +71,7 @@ Omschrijving: Dit is de resultaten pagina van de form
 
 
 //                display name time and date
-                echo "Bedankt voor het invullen van de vragenlijst " . $vraag13 . "!";
+                echo "Bedankt voor het invullen van de vragenlijst " . $vraag13 . "!" . " ";
                 require_once "includes/tijd.php";
                 if ($allevragen <= 0)
                 {

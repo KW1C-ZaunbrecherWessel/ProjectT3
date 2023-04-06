@@ -106,6 +106,14 @@ article
     position: relative;
     left: 40vw;
 }
+.formbg
+{
+    background-image: url("../images/wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #f1f1f1;
+}
 @media screen and (max-width: 1000px)
 {
     header

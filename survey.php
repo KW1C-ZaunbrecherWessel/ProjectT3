@@ -19,7 +19,7 @@
     <body>
     <main>
 <!--     Joris   we moeten ook sommige vragen radio button, checklist en tekst veld, alle velden moeten verplicht zijn ingevuld, dat weet je dat -->
-        <article>
+        <article class="formbg">
             <form action="./results.php" method="post" id="enquete">
                     <!-- de 1e vraag maken  -->
                 <h2>
@@ -189,19 +189,19 @@
                     <ul class="formul">
                         <li class="formli">
                     <input type="radio" id="vraag8A" name="vraag8" value="35" required>
-                    <label for="vraag8A">MC Chicken// weinig  </label>
+                    <label for="vraag8A">weinig</label>
                         </li>
                         <li class="formli">
                     <input type="radio" id="vraag8B" name="vraag8" value="-5" required>
-                    <label for="vraag8B">Mc Plant// weinig </label>
+                    <label for="vraag8B">weinig</label>
                         </li>
                         <li class="formli">
                     <input type="radio" id="vraag8C" name="vraag8" value="1" required>
-                    <label for="vraag8C">Big mac // gewoon  </label>
+                    <label for="vraag8C">gewoon</label>
                         </li>
                         <li class="formli">
                     <input type="radio" id="vraag8D" name="vraag8" value="15" required>
-                    <label for="vraag8D">Quarter Pounder // veel😀 </label>
+                    <label for="vraag8D">veel</label>
                         </li>
                     </ul>
                     <!--  vraag 9-->
@@ -233,19 +233,19 @@
                     <ul class="formul">
                         <li class="formli">
                     <input type="radio" id="vraag10A" name="vraag10" value="50" required>
-                    <label for="vraag10A">Ja //MCchicken</label>
+                    <label for="vraag10A">Ja</label>
                         </li>
                         <li class="formli">
                     <input type="radio" id="vraag10B" name="vraag10" value="-5" required>
-                    <label for="vraag10B">Nee// MCplant</label>
+                    <label for="vraag10B">Nee</label>
                         </li>
                         <li class="formli">
                     <input type="radio" id="vraag10C" name="vraag10" value="5" required>
-                    <label for="vraag10C">Hier en Daar // Quarter Pounder </label>
+                    <label for="vraag10C">Hier en Daar</label>
                         </li>
                         <li class="formli">
                     <input type="radio" id="vraag10D" name="vraag10" value="10" required>
-                    <label for="vraag10D">Nee ik heb een handicap🙁// Big Mac</label>
+                    <label for="vraag10D">ik kan niet sporten om diverse redenen</label>
                         </li>
                     </ul>
                     <!--          vraag 11-->
@@ -297,11 +297,11 @@
                 <h3>
                     wat is je naam?
                 </h3>
-                <input type="text" id="vraag13" name="vraag13" value="naam" required>
+                <input type="text" id="vraag13" name="vraag13" placeholder="Jou naam..." required>
                 <h3>
                     Wat is je Email?
                 </h3>
-                <input type="text" id="vraag14" name="vraag14" value="email" required>
+                <input type="text" id="vraag14" name="vraag14" placeholder="Jouw E-mail..." required>
                 <h3>
                     Wat is je leeftijd
                 </h3>
