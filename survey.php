@@ -73,7 +73,7 @@
                 </ul>
         <!--                vraag 3-->
                 <h3>
-                    vind je kip lekkerder dan vlees
+                    vind je kip lekkerder dan ander vlees?
                 </h3>
                 <ul class="formul">
                     <li class="formli">
@@ -117,7 +117,7 @@
                     </ul>
                     <!--       vraag 5-->
                 <h3>
-                    Hoeveel geef je om het Milieu
+                    Hoeveel geef je om het Milieu?
                 </h3>
                         <ul class="formul">
                             <li class="formli">
@@ -162,7 +162,7 @@
                     <!--        vraag 7-->
 
                 <h3>
-                    Welk sterrenbeeld heb je?
+                    Wat is je sterrenbeeld?
                 </h3>
                                 <ul class="formul">
                                     <li class="formli">
@@ -206,7 +206,7 @@
                     </ul>
                     <!--  vraag 9-->
                 <h3>
-                    Heb je graag groente op je burger of liefst zo min mogelijk?
+                    Heb je graag groente op je burger of het liefst zo min mogelijk?
                 </h3>
                     <ul class="formul">
                         <li class="formli">
@@ -228,7 +228,7 @@
                     </ul>
                     <!--                vraag 10-->
                 <h3>
-                    Sport je veel? (iets met burger met meeste eiwit bovenaan)
+                    Sport je veel?
                 </h3>
                     <ul class="formul">
                         <li class="formli">
@@ -272,7 +272,7 @@
                 </ul>
                     <!--                vraag 12-->
                 <h3>
-                    wat is je favoriete huisdier
+                    wat is je favoriete huisdier?
                 </h3>
                 <ul class="formul">
                     <li class="formli">
@@ -353,7 +353,7 @@
                 <br>
 
 <!--                submit button-->
-                <input type="submit" value="Burger Time">
+                <input class="button" type="submit" value="Burger Time">
             </form>
 
         </article>

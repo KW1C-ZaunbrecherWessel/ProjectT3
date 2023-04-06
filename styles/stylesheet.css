@@ -108,12 +108,26 @@ article
 }
 .formbg
 {
-    background-image: url("../images/wallpaper.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background-color: #01402F;
     color: #f1f1f1;
 }
+.button
+{
+    border-radius: 4px;
+    background-color: #FEBB0C;
+    color: #FFFFFF;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    margin: 5px;
+    transition-duration: 0.4s;
+}
+.button:hover
+{
+    background-color: #b79f00;
+
+}
+
 @media screen and (max-width: 1000px)
 {
     header
