@@ -20,7 +20,7 @@
     <main>
 <!--     Joris   we moeten ook sommige vragen radio button, checklist en tekst veld, alle velden moeten verplicht zijn ingevuld, dat weet je dat -->
         <article class="formbg">
-            <form action="./results.php" method="post" id="enquete">
+            <form action="./coockie.php" method="post" id="enquete">
                     <!-- de 1e vraag maken  -->
                 <h2>
                     Burger Quiz!!!
