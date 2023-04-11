@@ -19,23 +19,20 @@ Omschrijving: Dit is de resultaten pagina van de form
     //include header and nav
         require_once "includes/header.php"
     ?>
-
     <body>
         <main>
             <article>
                 <?php
-
-
-
-
-
 //                display name time and date
                 echo "Bedankt voor het invullen van de vragenlijst " . $_COOKIE['naamOpslaan'] . "!" . " ";
+//                include for time and date
                 require_once "includes/tijd.php";
+//                ????
                 if ($_COOKIE['resultaatOpslaan'] <= 0)
                 {
                     echo "Je hebt de vragelijst al eerder ingevuld het resultaat was " . $_COOKIE["resultaatOpslaan"];
                 }
+//                statements to print corresponding burger
                 else if ($_COOKIE['resultaatOpslaan'] <= 100)
                 {
                     echo "De Mc Plant past het beste bij jou<br>" . "Je punten aantal was " . $_COOKIE['resultaatOpslaan'] . "punten" . "<br>" . "<a href='https://www.mcdonalds.com/nl/nl-nl/product/McPlant.html#accordion-7b89f50203-item-9dc886373b'> klik hier voor meer informatie.</a>" . "<br>" . "<img src='images/McPlant.jpg' alt='Hier hoort een Mc Plant te staan'>";
@@ -52,10 +49,16 @@ Omschrijving: Dit is de resultaten pagina van de form
                 {
                     echo "De Mc Chicken past het beste bij jou<br>" . "Je punten aantal was " . $_COOKIE['resultaatOpslaan'] . "punten" . "<br>" . "<a href='https://www.mcdonalds.com/nl/nl-nl/product/mcchicken.html#accordion-7b89f50203-item-9dc886373b'> klik hier voor meer informatie</a>" . "<br>" . "<img src='images/McChicken.jpg' alt='Hier hoort een Mc Chicken te staan'>";
                 }
+//                unserialize array (cookie)
+                $antwoorden = unserialize($_COOKIE['puntenOpslaan']);
+//        for loop for points
+                for ($i = 0; $i < 12;$i++)
+                {
+                    echo "Het aantal punten dat je hebt behaald voor vraag" . ($i +1) . " is " . $antwoorden[$i] . "." . "<br>";
+                }
 
 
                 ?>
-
             </article>
         </main>
         <!--footer-->
