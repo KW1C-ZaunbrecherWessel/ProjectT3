@@ -3,6 +3,7 @@
  * aanmaakdatum:   21-3-2023
  * omschrijving:   ProjectT3
  */
+/*import fonts*/
 @font-face
 {
     font-family: "cool";
@@ -13,16 +14,19 @@
     font-family: "nice";
     src: url(../fonts/Roboto-Bold.ttf);
 }
+/*remove padding and margins and add the font to the body*/
 body
 {
     padding: 0;
     margin: 0;
     font-family: "nice",sans-serif;
 }
+/*change the font of all h3's*/
 h3
 {
     font-family: "cool",sans-serif;
 }
+/*creating the navbar for the website*/
 ul
 {
     display: flex;
@@ -38,6 +42,7 @@ a
     text-decoration: none;
     color: #000000;
 }
+/*creating different columns for the navbar*/
 .column
 {
     float: left;
@@ -55,21 +60,25 @@ a
 {
     width: 20vw;
 }
+/*clearing the columns after the nav*/
 .row::after
 {
     content: "";
     display: table;
     clear: both;
 }
+/*centering the article*/
 article
 {
     text-align: center;
 }
+/*defining the size of the happy meal image*/
 #happymeal
 {
     width: 70vw;
     height: auto;
 }
+/*creating grids for the other images*/
 .grid-container-three
 {
     display: grid;
@@ -85,16 +94,18 @@ article
     display: grid;
     justify-content: center;
     grid-template-columns: min-content min-content;
-
 }
+/*creating the dropdown menu*/
 .dropdown
 {
     display: none;
 }
+/*hiding the dropdown*/
 .smol
 {
     display: none;
 }
+/*styling the form*/
 .formul
 {
     display: flex;
@@ -111,6 +122,7 @@ article
     background-color: #01402F;
     color: #f1f1f1;
 }
+/*styling the submit button*/
 .button
 {
     border-radius: 4px;
@@ -125,19 +137,21 @@ article
 .button:hover
 {
     background-color: #b79f00;
-
 }
-
+/*making the website responsive*/
 @media screen and (max-width: 1000px)
 {
+    /*hiding the big navbar*/
     header
     {
         display: none;
     }
+    /*making the dropdown menu appear*/
     .smol
     {
         display: inline;
     }
+    /*making the dropdown menu*/
     nav
     {
         display: none;
@@ -180,6 +194,7 @@ article
     {
         display: block;
     }
+    /*making the images stack on top of each other*/
     .grid-container-three, .grid-container-two
     {
         grid-template-columns: min-content;
