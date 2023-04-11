@@ -16,10 +16,12 @@
     </title>
 </head>
 <body>
+<!--including the header-->
 <?php
 include "includes/header.php";
 ?>
     <main>
+        <!--adding the images to the page-->
         <article>
             <figure>
                 <img id="happymeal" src="images/happymeal.png" alt="happy meal">
@@ -28,6 +30,7 @@ include "includes/header.php";
         <article class="grid-container-three">
             <figure class="grid-item-three">
                 <img src="images/mcapp.jpg" alt="mc app">
+                <!--adding the text below the images-->
                 <figcaption>
                     <h3>
                         MyMcDonald's App
@@ -109,7 +112,7 @@ include "includes/header.php";
             </figure>
         </article>
     </main>
-<!--footer-->
+<!--including the footer-->
     <?php
         require_once "includes/footer.php";
     ?>
