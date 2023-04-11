@@ -54,7 +54,7 @@ Omschrijving: Dit is de resultaten pagina van de form
 //        for loop for points
                 for ($i = 0; $i < 12;$i++)
                 {
-                    echo "Het aantal punten dat je hebt behaald voor vraag" . ($i +1) . " is " . $antwoorden[$i] . "." . "<br>";
+                    echo "<br>" . "Het aantal punten dat je hebt behaald voor vraag" . ($i +1) . " is " . $antwoorden[$i] . "." . "<br>";
                 }
 
 
