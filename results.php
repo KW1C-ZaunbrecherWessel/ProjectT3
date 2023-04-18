@@ -45,7 +45,7 @@ Omschrijving: Dit is de resultaten pagina van de form
                 {
                     echo "De Quarter Pounder past het beste bij jou<br>" . "Je punten aantal was " . $_COOKIE['resultaatOpslaan'] . "punten" . "<br>" . "<a href='https://www.mcdonalds.com/nl/nl-nl/product/quarter-pounder.html#accordion-7b89f50203-item-9dc886373b'> klik hier voor meer informatie</a>" . "<br>" . "<img src='images/QuarterPounder.jpg' alt='Hier hoort een Quarter Pounder te staan'>";
                 }
-                else if ($_COOKIE['resultaatOpslaan'] >= 300)
+                else if ($_COOKIE['resultaatOpslaan'] > 300)
                 {
                     echo "De Mc Chicken past het beste bij jou<br>" . "Je punten aantal was " . $_COOKIE['resultaatOpslaan'] . "punten" . "<br>" . "<a href='https://www.mcdonalds.com/nl/nl-nl/product/mcchicken.html#accordion-7b89f50203-item-9dc886373b'> klik hier voor meer informatie</a>" . "<br>" . "<img src='images/McChicken.jpg' alt='Hier hoort een Mc Chicken te staan'>";
                 }
